@@ -11,6 +11,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { JoinUsComponent } from './pages/join-us/join-us.component';
 import { BlogComponent } from './pages/blog/blog.component';
 
+import { AppRoutingModule} from './app.routing.module';
+import { FooterComponent } from './footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +22,13 @@ import { BlogComponent } from './pages/blog/blog.component';
     AboutUsComponent,
     ContactComponent,
     JoinUsComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    MaterializeModule
+    MaterializeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

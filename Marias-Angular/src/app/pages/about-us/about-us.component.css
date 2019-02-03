@@ -1,0 +1,69 @@
+.about-us{
+    background-image: url("../../../assets/future_is_female.jpg");
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto Slab';
+    color: white;
+    margin-top: 0vh;
+    padding-top: 50vh;
+    padding-left: 5vw;
+    text-shadow: 1em 0.8em 3em rgba(0, 0, 0, 0.25);
+}
+
+.history{
+    background-color: rgba(255,216,217,0.17);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0vh;
+    padding-top: 0vh;
+}
+
+.history-inner{
+    padding-top: 5vh;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.team{
+    background-color: rgba(151, 129, 129, 0.52);
+    height: 60vh;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0vh;
+    padding-top: 0vh;
+    letter-spacing: 0.08em;
+}
+
+.team-inner{
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+h2{
+    color: rgb(138, 50, 51);
+    font-size: 3.5em;
+}
+
+p{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.team p{
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button{
+    width: 13vw;
+    height: 8vh;
+    font-family: 'Roboto';
+    background-color: rgb(138, 50, 51);
+    color: antiquewhite;
+}
